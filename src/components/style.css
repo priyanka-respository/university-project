@@ -1,0 +1,625 @@
+ @font-face {
+    font-family: 'Satoshi Variable';
+    src: url('../components/fonts/SatoshiVariable-Bold.woff2') format('woff2'),
+        url('../components/fonts/SatoshiVariable-Bold.woff') format('woff'),
+        url('../components/fonts/SatoshiVariable-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;}
+
+
+ @font-face {
+    font-family: 'Satoshi';
+    src: url('../components/fonts/Satoshi-Light.woff2') format('woff2'),
+        url('../components/fonts/Satoshi-Light.woff') format('woff'),
+        url('../components/fonts/Satoshi-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../components/fonts/Satoshi-Regular.woff2') format('woff2'),
+        url('../components/fonts/Satoshi-Regular.woff') format('woff'),
+        url('../components/fonts/Satoshi-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../components/fonts/Satoshi-Medium.woff2') format('woff2'),
+        url('../components/fonts/Satoshi-Medium.woff') format('woff'),
+        url('../components/fonts/Satoshi-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../components/fonts/Satoshi-LightItalic.woff2') format('woff2'),
+        url('../components/fonts/Satoshi-LightItalic.woff') format('woff'),
+        url('../components/fonts/Satoshi-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+ @font-face {
+    font-family: 'Satoshi';
+    src: url('../components/fonts/Satoshi-Bold.woff2') format('woff2'),
+        url('../components/fonts/Satoshi-Bold.woff') format('woff'),
+        url('../components/fonts/Satoshi-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+} 
+
+
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../components/fonts/Satoshi-Black.woff2') format('woff2'),
+        url('../components/fonts/Satoshi-Black.woff') format('woff'),
+        url('../components/fonts/Satoshi-Black.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Satoshi';
+}
+
+
+.nav-text {
+    padding: 5px 20px !important;
+    color: #000 !important;
+    line-height: 37px;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.login {
+    margin-right: 14px;
+    padding: 5px 10px;
+    color: #000 !important;
+}
+
+.sign-btn {
+    padding: 10px 20px !important;
+    border-radius: 71px;
+    background-color: #1476FF;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+/* footer */
+li {
+    list-style-type: none;
+    padding-bottom: 1rem;
+}
+
+.footer-text h3 {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.footer-list {
+    margin-top: 32px
+}
+
+.footer-text a {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+input[type="email"] {
+    height: 56px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    border: 0px solid #000;
+    border-radius: 32px;
+    background-color: #f4f4f4;
+}
+
+.footer-icon {
+    color: #fff;
+    width: 24px;
+    height: 24px;
+}
+
+.arrow-btn {
+    width: 56px;
+    height: 56px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: #000;
+    border: none;
+}
+
+.social-icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.social-icon a {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    transition: all 200ms ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon a:hover {
+    -webkit-transform: translate(0px, -5px);
+    -ms-transform: translate(0px, -5px);
+    transform: translate(0px, -5px);
+    color: #000 !important;
+}
+
+/* center secetion.......................... */
+
+.plateform-heading {
+    position: relative;
+}
+
+.left-image {
+    position: absolute;
+    top: -35px;
+    left: 0;
+    width: 280px;
+    height: 262px;
+}
+
+.headings h1 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 88px;
+    line-height: 96px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.headings p {
+    font-size: 20px;
+    line-height: 32px;
+    width: 600px;
+}
+
+.headings {
+    position: relative;
+    padding-top: 50px;
+}
+
+.head-top img {
+    position: absolute;
+    left: 137px;
+    width: 56px;
+    height: 57px;
+    top: 28px;
+}
+
+.button-wrapper {
+    margin-top: 40px;
+}
+
+.button-wrapper .create {
+    padding: 16px 32px 16px 48px;
+    align-items: center;
+    border-radius: 36px;
+    background-color: #1476ff;
+    color: #fff;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.create:hover {
+    color: #fff !important;
+    background-color: #1476FF;
+
+}
+
+.hover-up {
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.inside-logo {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.logo-text {
+    opacity: 0.7;
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 400;
+    white-space: nowrap;
+    display: flex;
+    justify-content: start;
+    margin-top: 0.4rem;
+}
+
+.left-logo-text {
+    position: relative;
+}
+
+.left-logo-text:after {
+    content: "";
+    position: absolute;
+    border-right: 1px solid #808080;
+    height: 32px;
+    left: 105px;
+}
+
+.banner {
+    position: relative;
+}
+
+.right-img {
+    position: absolute;
+    right: 0;
+    max-width: 100%;
+    width: 974px;
+    height: 831px;
+    top: -312px;
+}
+
+.pc-image {
+    position: relative;
+    bottom: 173px;
+}
+
+.pc-topshadow {
+    position: absolute;
+    z-index: 1;
+    top: -117px;
+    left: 78px;
+}
+
+.banner-wrapper {
+    position: relative;
+}
+.star {
+    position: absolute;
+    top: 212px;
+    left: 134px;
+    z-index: 1;
+}
+
+.curve-line img {
+    position: absolute;
+    top: 392px;
+    right: -92px;
+}
+
+section.social-plateform {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.similar-people {
+    height: 100%;
+    width: 100%;
+    padding: 48px 40px;
+    border-radius: 22px;
+    background-color: #fff;
+    box-shadow: 0 13px 100px 0 hsl(0deg 0% 78% / 25%);
+}
+
+.p-img img {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 32px;
+}
+
+.similar-people h3 {
+    margin-bottom: 16px;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+.similar-people p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.first-row {
+    padding-bottom: 40px;
+}
+
+.student-social h4 {
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+.student-social {
+    padding-right: 80px;
+    padding-left: 56px;
+    align-items: flex-start;
+    background-color: #1476FF;
+    color: #fff;
+    position: relative;
+    height: 100%;
+}
+
+.student-social a {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.high-topline {
+    position: absolute;
+    top: 37px;
+    left: 33px;
+}
+
+.student-social a:hover {
+    color: #000 !important;
+}
+
+.back-shadow {
+    position: absolute;
+    top: -99px;
+    z-index: -1;
+    right: 0;
+}
+
+.social-plateform .col-md-4 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.social-plateform .col-md-8 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+/* center one............................. */
+
+section.center-one {
+    padding: 80px 0;
+}
+
+.shadow-backimg img {
+    z-index: -1 !important;
+    position: absolute;
+    z-index: -1;
+    bottom: -26px;
+    right: 33px;
+}
+
+.center-img {
+    position: relative;
+}
+
+.right-card h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 32px;
+}
+
+.right-card p {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0;
+}
+
+.card-wrapper {
+    padding-top: 40px;
+}
+
+.pricing-plane {
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.pricing-plane p {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.pricing-plane img {
+    margin-right: 16px;
+}
+
+.right-card-wrapper {
+    padding: 50px 0;
+}
+
+.btn-card-img a {
+    text-decoration: none;
+}
+
+.btn-card-img span {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.btn-card-img {
+    margin-top: 48px;
+}
+
+.btn-card-img img {
+    margin-right: 16px;
+}
+
+.shadow-two img {
+    position: absolute;
+    z-index: -1;
+    bottom: -85px;
+    right: -96px;
+}
+
+/* unisocial.............................. */
+
+.uni-headings h2 {
+    margin-top: 0px;
+    margin-bottom: 24px;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.uni-headings p {
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.uni-firstbox a {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-box {
+    width: 100%;
+    margin-top: 35px;
+    padding: 48px 40px;
+    border-radius: 13px;
+    background-color: #fff;
+    box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.07);
+}
+
+.bottom-box img {
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+}
+
+.bottom-box p {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.bottom-box h4 {
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.uni-image img {
+    position: absolute;
+    z-index: -1;
+    right: 35px;
+    top: -151px;
+}
+
+.uni-container {
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    left: 0%;
+    top: 12%;
+    right: 0%;
+    bottom: 0%;
+    z-index: 11111;
+    display: flex;
+    width: 72px;
+    height: 72px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #1476FF;
+    color: #fff;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+}
+
+.left-lines img {
+    position: absolute;
+    left: -31px;
+    top: 40px;
+}
+
+.uni-headings {
+    margin-bottom: 64px;
+}
+
+.vector-img img {
+    position: absolute;
+    left: 164px;
+    bottom: -69px;
+}
+
+.bottom-btn {
+    padding: 90px 0;
+
+}
+
+.footer {
+    padding: 80px 0;
+}
+
+.bottom-btn p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+}
+
+@media screen and (max-width:768px){
+    .headings h1 {
+        font-size: 57px;
+        line-height: 68px;
+    }
+    .nav-text {
+        padding-left: 0px !important;
+    }
+    .student-social {
+        padding: 30px 40px;
+    }
+    .pc-topshadow img {
+        max-width: 100%;
+    }
+}
+
