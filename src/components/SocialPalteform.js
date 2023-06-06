@@ -20,7 +20,7 @@ const SocialPalteform = () => {
                         <Col md={8}>
                             <div className='student-social similar-people'>
                                 <div className='high-topline'><img src={highlighttop}></img></div>
-                                <h4>Student social platform that handles it all with Ali priyanka ki wajah se.</h4>
+                                <h4>Student social platform that handles it all.</h4>
                                 <div className='button-wrapper'>
                                     <a href='' className='create'><span>See all Features</span>
                                         <img src={ArrowUpRight} className="img-fluid hover-up" alt=""></img>
